@@ -79,6 +79,29 @@ This file contains all the reactions, theres some chance i forgot one though, te
 - BRAC and temp > 373.15 = B2O3 and WTRV and +20K with ((temp/400)^8)%/f
 - BRAC and any metal = BRAC and BRMT
 ## HCL
-- BRAC and temp > 373.15 = B2O3 and WTRV and +20K with ((temp/400)^8)%/f
-- BRAC and any metal = BRAC and BRMTdfgocgdgkvgdxfkbvfdxk
-
+- HCL and any organics = HCL and CARB and +50K with 50%/f
+- HCL and any metal = HCL and BRMT
+- HCL and any water = DHCL
+- HCL and OXYG and *COPR* = WTRV and CHLR with (temp/690.115)^99)%/f
+## DHCL
+- DHCL and any organics = DHCL and CARB and +50K with 50%/f
+- DHCL and any metal = DHCL and BRMT
+## NAOH
+- NAOH and HCL = SALT and WATR with 5%/f
+## H2O2
+- H2O2 and any transition metal = WATR and OXYG and +30K with (15*log((temp-277.5)/2.6))%/f
+- H2O2 and temp > 300.15 = WATR and OXYG and +30K with ((temp/308)^21)%/f
+## N2H4
+- N2H4 and IRID = NTRG and HYGN and NH3 with 5%/f
+## SFAV
+- SLFA and any organics = SFAV and CARB and +50K with 50%/f
+- SFAV and any metal = SFAV and BRMT
+- SFAV and any water = +100K and WATR with 50%
+- SFAV and temp < 611 = SLFA
+## NFPU
+NFPU and temp > 7474.15 = PLUT
+NFPU = URAN and NEUT at 0.005%/f
+NFPU = +20K with 0.1%/f and temp < random int 1-1000
+## YEST
+YEST and 303 < temp < 317 = ETHN with 4%/f
+YEST and 303 < temp < 317 = ETHN with 3.33%/f
