@@ -30,3 +30,5 @@ This file contains all the reactions, theres some chance i forgot one though, te
 - CHLR + Any water = TCWR with 10%/f
 - CHLR + SODI = SALT with 20%/f
 - CHLR + HYGN = HCL with (temp/580)^21)%/f
+## SODI
+- SODI + Any water = NAOH with 50%/f + HYGN with 90%/FIRE with 10% + +30K
