@@ -1,6 +1,4 @@
-This file contains all the reactions, theres some chance i forgot one though
-Temp is in K
-*Italic* means its a catalyst and isnt consumed by the reaction
+This file contains all the reactions, theres some chance i forgot one though, temp is in K, *Italic* means its a catalyst and isnt consumed by the reaction, no reaction will be listed twice on 2 different elements
 ## CARB
 - Pressure > 80 + temp > 1500 = PDMN with 0.5%\f
 ## NTRG
@@ -26,3 +24,9 @@ Temp is in K
 ## LF2
 - LF2 + Any metal = LF2 + BRMT with 2%/f
 - LF2 + TUNG = WF6 with 5%/f
+## ALNM
+- ALNM + OXYG = ALMO with 10%/f + OXYG with 50%/f
+## CHLR
+- CHLR + Any water = TCWR with 10%/f
+- CHLR + SODI = SALT with 20%/f
+- CHLR + HYGN = HCL with (temp/580)^21)%/f
